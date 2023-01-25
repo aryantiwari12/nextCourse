@@ -21,12 +21,12 @@ const EventItem = (props: any) => {
                 <div className={classes.summary}>
                     <h2>{title}</h2>
                 </div>
-                <div className={classes.date}>
+                <div  className={classes.date}>
                     <DateIcon/>
                     <time>{humanReadableDate}</time>
                 </div>
                 <div className={classes.address}>
-                    <span className={classes.icon}>
+                     <span className={classes.icon}>
                     <AddressIcon/>
                     </span>
                    <address>{formattedAddress}</address> 
